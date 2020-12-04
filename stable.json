@@ -37,7 +37,7 @@
     "intel-nuc": "4.21"
   },
   "ota": "https://github.com/b46ha/operating-system/releases/download/{version}/hassos_{board}-{version}.raucb",
-  "cli": "2020.11.1",
+  "cli": "2020.12.1",
   "dns": "2020.11.0",
   "audio": "17",
   "multicast": "3",
