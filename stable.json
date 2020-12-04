@@ -1,6 +1,6 @@
 {
   "channel": "stable",
-  "supervisor": "2020.12.2",
+  "supervisor": "2020.12.3",
   "homeassistant": {
     "default": "0.118.4",
     "qemux86": "0.118.4",
@@ -23,18 +23,18 @@
   "hassos": {
     "ova": "4.17",
     "rpi": "4.17",
-    "rpi0-w": "4.17",
+    "rpi0-w": "4.20",
     "rpi2": "4.17",
     "rpi3": "4.17",
     "rpi3-64": "4.17",
-    "rpi4": "4.17",
-    "rpi4-64": "4.17",
+    "rpi4": "4.20",
+    "rpi4-64": "4.20",
     "tinker": "4.17",
     "odroid-c2": "4.17",
     "odroid-c4": "5.5",
     "odroid-n2": "4.17",
     "odroid-xu4": "4.17",
-    "intel-nuc": "4.17"
+    "intel-nuc": "4.20"
   },
   "ota": "https://github.com/home-assistant/operating-system/releases/download/{version}/hassos_{board}-{version}.raucb",
   "cli": "2020.11.1",
@@ -43,12 +43,12 @@
   "multicast": "3",
   "observer": "2020.10.1",
   "image": {
-    "core": "homeassistant/{machine}-homeassistant",
-    "supervisor": "homeassistant/{arch}-hassio-supervisor",
-    "cli": "homeassistant/{arch}-hassio-cli",
-    "audio": "homeassistant/{arch}-hassio-audio",
-    "dns": "homeassistant/{arch}-hassio-dns",
-    "observer": "homeassistant/{arch}-hassio-observer",
-    "multicast": "homeassistant/{arch}-hassio-multicast"
+    "core": "b46ha/{machine}-homeassistant",
+    "supervisor": "b46ha/{arch}-hassio-supervisor",
+    "cli": "b46ha/{arch}-hassio-cli",
+    "audio": "b46ha/{arch}-hassio-audio",
+    "dns": "b46ha/{arch}-hassio-dns",
+    "observer": "b46ha/{arch}-hassio-observer",
+    "multicast": "b46ha/{arch}-hassio-multicast"
   }
 }
