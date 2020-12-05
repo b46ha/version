@@ -37,11 +37,11 @@
     "intel-nuc": "4.24"
   },
   "ota": "https://github.com/b46ha/operating-system/releases/download/{version}/hassos_{board}-{version}.raucb",
-  "cli": "2020.12.1",
+  "cli": "2020.12.2",
   "dns": "2020.11.0",
   "audio": "17",
   "multicast": "3",
-  "observer": "2020.10.1",
+  "observer": "2020.12.3",
   "image": {
     "core": "b46ha/{machine}-homeassistant",
     "supervisor": "b46ha/{arch}-hassio-supervisor",
