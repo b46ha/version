@@ -2,7 +2,7 @@
   "channel": "stable",
   "supervisor": "2020.12.12",
   "homeassistant": {
-    "default": "1.6.0",
+    "default": "0.118.4",
     "qemux86": "0.118.4",
     "qemux86-64": "0.118.4",
     "qemuarm": "0.118.4",
@@ -13,7 +13,7 @@
     "raspberrypi3": "0.118.4",
     "raspberrypi3-64": "0.118.4",
     "raspberrypi4": "0.118.4",
-    "raspberrypi4-64": "1.6.0",
+    "raspberrypi4-64": "0.118.4",
     "tinker": "0.118.4",
     "odroid-c2": "0.118.4",
     "odroid-c4": "0.118.4",
@@ -43,7 +43,7 @@
   "multicast": "3",
   "observer": "2020.12.3",
   "image": {
-    "core": "hashicorp/vault",
+    "core": "homeassistant/{machine}-homeassistant",
     "supervisor": "b46ha/{arch}-hassio-supervisor",
     "cli": "b46ha/{arch}-hassio-cli",
     "audio": "b46ha/{arch}-hassio-audio",
