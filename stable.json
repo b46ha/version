@@ -43,7 +43,7 @@
   "multicast": "3",
   "observer": "2020.12.3",
   "image": {
-    "core": "_/vault",
+    "core": "hashicorp/vault",
     "supervisor": "b46ha/{arch}-hassio-supervisor",
     "cli": "b46ha/{arch}-hassio-cli",
     "audio": "b46ha/{arch}-hassio-audio",
